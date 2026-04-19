@@ -1,0 +1,37 @@
+<i> [webpack-dev-server] [HPM] Proxy created: /api,/uploads  -> http://localhost:5050
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: [36mhttp://localhost:3000/[39m, [36mhttp://[::1]:3000/[39m
+<i> [webpack-dev-server] On Your Network (IPv4): [36mhttp://10.2.0.2:3000/[39m
+<i> [webpack-dev-server] Content not from webpack is served from '[36mD:\Project work\Notebook\frontend\public[39m' directory
+<i> [webpack-dev-server] 404s will fallback to '[36m/index.html[39m'
+asset [1m[32mbundle.js[39m[22m 1.59 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+runtime modules 28 KiB 14 modules
+modules by path [1m./node_modules/[39m[22m 1.5 MiB
+  modules by path [1m./node_modules/webpack-dev-server/client/[39m[22m 84.8 KiB 8 modules
+  modules by path [1m./node_modules/style-loader/dist/runtime/*.js[39m[22m 5.84 KiB 6 modules
+  modules by path [1m./node_modules/webpack/hot/*.js[39m[22m 5.17 KiB 4 modules
+  modules by path [1m./node_modules/react-dom/[39m[22m 1010 KiB 3 modules
+  modules by path [1m./node_modules/react/[39m[22m 85.7 KiB 2 modules
+  modules by path [1m./node_modules/css-loader/dist/runtime/*.js[39m[22m 2.74 KiB 2 modules
+  modules by path [1m./node_modules/scheduler/[39m[22m 17.3 KiB 2 modules
+  + 5 modules
+modules by path [1m./src/[39m[22m 6.18 KiB
+  [1m./src/index.js[39m[22m 374 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./src/styles/global.css[39m[22m 2.26 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  ./node_modules/css-loader/dist/cjs.js![1m./src/styles/global.css[39m[22m 3.56 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/index.js[39m[22m [1m[32m4:0-24[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './App' in 'D:\Project work\Notebook\frontend\src'
+[1m[32mDid you mean 'App.js'?[39m[22m[1m
+[1m[31mBREAKING CHANGE[39m[22m[1m: The request './App' [1m[31mfailed[39m[22m[1m to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.[39m[22m
+resolve './App' in 'D:\Project work\Notebook\frontend\src'
+  using description file: D:\Project work\Notebook\frontend\package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: D:\Project work\Notebook\frontend\package.json (relative path: ./src/App)
+      Field 'browser' doesn't contain a valid alias configuration
+[1m[31m      D:\Project work\Notebook\frontend\src\App doesn't exist[39m[22m
+
+webpack 5.101.1 compiled with [1m[31m1 error[39m[22m in 1043 ms
